@@ -3,7 +3,7 @@ import { DefaultLoginLayout } from '../../components/default-login-layout/defaul
 
 @Component({
   selector: 'app-login',
-  standalone: true,
+  // standalone: true,
   imports: [
     DefaultLoginLayout
   ],
