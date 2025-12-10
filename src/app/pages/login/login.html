@@ -5,6 +5,7 @@
 >
     <form [formGroup]="loginForm">
         <app-primary-input
+            formControlName="email"
             inputName="email"
             type="email"
             label="Email"
@@ -13,11 +14,13 @@
             <img src="email-icon.svg" alt="">
         </app-primary-input>
         <app-primary-input
+            formControlName="password"
             inputName="password"
             type="password"
             label="Your Password"
         >
             <img src="password-icon.svg" alt="">
         </app-primary-input>
+        <span>Forgot password?</span>
     </form>
 </app-default-login-layout>
